@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wed wise</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+</head>
+<body>
+ <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo-red.png" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Home</a></li>
+            <li><a href="../navbar-static-top/">About us</a></li>
+            <li class="active"><a href="./">Contact us <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+   <div class="container">
+    <div class="row">
+<div class="col-md-12">
+<div class="white-bg-video">
+
+        <h3>360 Degree image</h3>
+
+
+
+<div><img src="images/multiwedslide.jpg" class="img-responsive" alt=""></div>
+
+
+
+
+      
+    
+ 
+     
+    </div>
+
+
+  </div>
+
+
+
+</div>
+</div>
+<footer class="footer">
+      <div class="container">
+        <p>
+
+© wedwise 2015. All right reserved.
+
+
+
+</p>
+      </div>
+    </footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- FlexSlider -->
+<script defer src="js/bootstrap.js"></script>
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+   
+    $(window).load(function(){
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+</body>
+</html>
