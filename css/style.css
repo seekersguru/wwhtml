@@ -1,0 +1,108 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body{margin:0px; line-height:24px;  margin-bottom: 60px; background-color:#efefef;   padding:0px; }
+.details-box {
+    margin-bottom:40px;
+}
+.navbar-nav > li > a {
+    padding-bottom: 15px;
+    padding-top: 35px;
+}
+.sitebg{  background-color: #ff6754;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px; }
+    .sitebg h3{color:#fff; margin:0px; margin-bottom:0px;   }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{background-color:transparent; }
+.details-box {
+    background-color: #fff;
+    min-height: 400px;
+    padding: 20px 15px 15px;
+}
+.details-box h3 {
+    border-bottom: 1px solid #d5d5d4;
+    color: #ff5a5f !important;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+ h3 {
+    border-bottom: 1px solid #d5d5d4;
+    color: #ff5a5f !important;
+    font-weight: 500;
+    margin-bottom: 15px; margin-top:8px; 
+    padding-bottom: 10px;
+}
+.details-box > ul{padding:0px; margin: 0px; list-style:none;  }
+.details-box li {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0; list-style: none;
+}
+.details-box li:first-child {
+    padding-top: 0;
+}
+.details-box li:last-child {
+    border-bottom: medium none;
+}
+.comment.more1 {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    min-height:95px; box-shadow: 1px 0 7px -2px #000; 
+    border-color:transparent;
+}
+.selected-color {
+    margin-right: 18px;
+}
+h2{font-size:15px; margin-top: 5px; }
+.legend {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.footer {
+    background-color: #ff6754;
+    bottom: 0; color:#fff; text-align: center; 
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.footer p{margin-top: 20px; margin-bottom:0px; }
+.color-details h3 {
+    color: #ff6754;
+    font-weight: 400;
+    margin-top: 0;
+}
+.strong, b, strong {
+    color: #000;
+    font-weight: 500;
+}
+.white-bg {
+    background-color: #fff;
+    padding: 10px; margin-bottom:30px; 
+}
+
+.white-bg-video {
+    background-color: #fff;
+
+    margin-bottom: 30px;
+    padding: 15px 15px 10px; 
+}
+
+
+@media (max-width: 767px) {
+.navbar-brand{width: 250px; padding-top:10px; padding-bottom:0px;  }
+.navbar-brand img{width: 100%;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ margin-top:15px;  border-color:transparent;}
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top:solid 1px #ddd; 
+}
+.navbar-default{padding-top:14px; }
+}
